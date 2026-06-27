@@ -1,0 +1,126 @@
+*{
+    margin: 5px;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --rosa: #f1c9d8;
+    --rosa-escuro: #cd7894;
+    --rosa-claro: #f5e6eb;
+    --cinza: #393939;
+    --creme: #F8F5ED;
+    --preto: #1D1D1D;
+}
+
+/*body*/
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: var(--creme);
+    color: var(--texto-escuro);
+    font-size: 1.5rem;
+}
+body section{
+    background-color: var(--creme);
+    padding: 20px 10px;
+}
+
+/* header */
+header .interface{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: space-between;
+    padding: 20px 80px;
+}
+header nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 50px;
+}
+header nav a{
+    color: var(--rosa);
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin: 100px 20px;
+}
+
+/* hero */
+section#hero {
+    background-color: var(--preto);
+    padding: 40px 80px;
+    min-height: 400px;
+}
+header .hero {
+    padding: 40px 80px;
+}
+header .oi {
+    color: var(--preto);
+}
+header .hero h2 {
+    color: var(--cinza);
+    font-size: 6rem;
+    margin: 0;
+}
+header .descricao {
+    color: var(--preto);
+}
+
+/* divisor */
+.divisor {
+    border: none;
+    height: 5px;
+    background-color: var(--rosa);
+    margin: 0;
+}
+
+/*sobre*/
+section#sobre {
+    margin-bottom: 60px;
+}
+section#sobre h2 {
+    color: var(--cinza);
+    padding-top: 80px;
+}
+
+/* projetos */
+section#projetos h2 {
+    color: var(--rosa);
+    padding-top: 80px;
+    text-align: center;
+    font-size: 3rem;
+margin-bottom: 60px;
+}
+section#projetos p {
+    text-align: center;
+}
+.projeto h3 {
+    text-align: center;
+    color: var(--cinza);
+}
+.projetos-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+.projeto {
+    background-color: var(--rosa-claro);
+    padding: 30px;
+    border-radius: 12px;
+}
+
+/* contato*/
+section#contato {
+    padding: 200px 80px 30px 80px;;
+}
+.faixa-contato {
+    background-color: var(--rosa-claro);
+    padding: 80px 80px;
+    margin-top: 0px;
+    margin-left: -80px;
+    margin-right: -80px;
+}
+.faixa-contato a {
+    color: var(--rosa-escuro);
+}
